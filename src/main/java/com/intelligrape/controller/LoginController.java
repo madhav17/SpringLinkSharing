@@ -23,7 +23,6 @@ public class LoginController {
 
     @RequestMapping(value = "/")
     public String signIn() {
-        System.out.println("234234");
         return "login/signIn";
     }
 
